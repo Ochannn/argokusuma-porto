@@ -1,0 +1,136 @@
+/* =========================================================
+   GLOBAL RESET
+========================================================= */
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100%;
+
+  background: #03050b;
+
+  overscroll-behavior-y: none;
+
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #637cff #050912;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  min-height: 100%;
+
+  background: #03050b;
+  color: #f0f4fc;
+
+  overflow-x: hidden;
+}
+
+
+/* =========================================================
+   ROOT SCROLLBAR
+   Chrome / Edge / Safari
+========================================================= */
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+
+  background: #050912;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #050912;
+}
+
+html::-webkit-scrollbar-track-piece,
+body::-webkit-scrollbar-track-piece {
+  background: #050912;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  min-height: 50px;
+
+  border-radius: 999px;
+
+  border: 2px solid #050912;
+
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9 0%,
+      #5d75ff 48%,
+      #a855f7 100%
+    );
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover {
+  background:
+    linear-gradient(
+      180deg,
+      #9cf4ff 0%,
+      #7690ff 48%,
+      #c084fc 100%
+    );
+}
+
+html::-webkit-scrollbar-corner,
+body::-webkit-scrollbar-corner {
+  background: #050912;
+}
+
+
+/* =========================================================
+   INNER SCROLLBARS
+========================================================= */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #637cff #050912;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #050912;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+
+  border: 2px solid #050912;
+
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #5d75ff,
+      #a855f7
+    );
+}
+
+
+/* =========================================================
+   SELECTION
+========================================================= */
+
+::selection {
+  background: rgba(103, 232, 249, 0.22);
+  color: #ffffff;
+}
