@@ -75,15 +75,20 @@ export const projects: Project[] = [
     image: "/projects/belajarmuda.png",
     accent: "#1687f8",
   },
-  // {
-  //   id: 6,
-  //   title: "SMC Market System",
-  //   category: "FINTECH / AUTOMATION",
-  //   year: "2026",
-  //   description:
-  //     "Eksperimen sistem market analysis dan automation dengan Smart Money Concept, structure detection, divergence, dan risk management.",
-  //   technologies: ["MQL5", "Trading", "SMC", "Automation"],
-  //   image: "/projects/smc-system.webp",
-  //   accent: "#ef4444",
-  // },
+  {
+    id: 6,
+    title: "Piwulangan Basa Jawa",
+    category: "EDTECH / INTERACTIVE LEARNING",
+    year: "2026",
+    description:
+      "Aplikasi pembelajaran interaktif Bahasa Jawa yang menghadirkan materi unggah-ungguh basa, kuis, capaian dan tujuan pembelajaran, serta fitur voice berbasis JavaScript untuk mendukung latihan berbicara dan pengalaman belajar yang lebih interaktif.",
+    technologies: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Voice Interaction"
+    ],
+    image: "/projects/piwulangan.png",
+    accent: "#c26a13",
+  },
 ];
